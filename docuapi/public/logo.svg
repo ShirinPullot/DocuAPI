@@ -1,0 +1,27 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main container -->
+  <rect x="2" y="2" width="36" height="36" rx="8" fill="#111827" />
+  
+  <!-- Glowing effect -->
+  <rect x="2" y="2" width="36" height="36" rx="8" fill="url(#glow)" />
+  
+  <!-- Document icons -->
+  <rect x="6" y="6" width="12" height="12" rx="2" fill="#60A5FA" /> <!-- Text document -->
+  <circle cx="12" cy="28" r="6" fill="#34D399" /> <!-- Audio file -->
+  <polygon points="26,6 38,6 38,18 32,14 26,18" fill="#F472B6" /> <!-- Video file -->
+  <rect x="26" y="22" width="12" height="12" rx="2" fill="#FBBF24" /> <!-- Presentation file -->
+  
+  <!-- Retrieval element (magnifying glass) -->
+  <circle cx="30" cy="30" r="8" fill="white" opacity="0.2" />
+  <circle cx="30" cy="30" r="5" fill="none" stroke="white" stroke-width="2" />
+  <line x1="35" y1="35" x2="38" y2="38" stroke="white" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Definitions -->
+  <defs>
+    <!-- Glowing effect -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+</svg>
