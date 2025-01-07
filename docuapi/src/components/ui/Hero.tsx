@@ -7,7 +7,7 @@ export default function Hero() {
       <HeroBackground />
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Universal Document Storage for AI Applications
+          Centralized Data Storage for AI Applications
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
           One API to store and retrieve any document format. Seamlessly integrate with your AI agents, chatbots, and applications.
